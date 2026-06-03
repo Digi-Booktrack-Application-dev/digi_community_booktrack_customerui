@@ -38,7 +38,7 @@ const Login = () => {
         localStorage.removeItem("currentUser");
         setFormMessage("Redirecting to Admin application...");
         setTimeout(() => {
-          window.location.href = "http://admin.softwarestack.xyz/";
+          window.location.href = "http://admin.itzmeramyaa.com/";
         }, 1000);
         return;
       }
